@@ -11,7 +11,7 @@ namespace HomeWork
             {
                 int N_Estudiantes = 0; 
                 int N_years = 0;
-                string Nombre_Carrera = ""; 
+                string Nombre_Carrera = "Ingenieria en sistemas"; 
                 int T_estudents = 0;
 
                 // Solicitar al usuario el número de estudiantes
@@ -32,8 +32,7 @@ namespace HomeWork
                 }
 
                 // Solicitar al usuario el nombre de la carrera
-                Console.Write("- Ingrese el nombre de la carrera: ");
-                Nombre_Carrera = Console.ReadLine();
+                Console.Write($"- Nombre de la carrera: {Nombre_Carrera}");
 
                 //Probabilidad de que los estudiantes que pasen, se quemen o de asusten desde el primer año hasta el quinto año
                 double[] pasaron = { 0.7, 0.7, 0.7, 0.7, 0.7 };
@@ -96,3 +95,4 @@ namespace HomeWork
         }
     }
 }
+
