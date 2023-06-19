@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Escritorio\\HomeWork\\HomeWork.csproj",
+      "projectUniqueName": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Documentos\\HomeWork\\HomeWork.csproj",
       "projectName": "HomeWork",
-      "projectPath": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Escritorio\\HomeWork\\HomeWork.csproj",
+      "projectPath": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Documentos\\HomeWork\\HomeWork.csproj",
       "packagesPath": "C:\\Users\\PC_USER21\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Escritorio\\HomeWork\\obj\\",
+      "outputPath": "C:\\Users\\PC_USER21\\OneDrive - Universidad Católica Nordestana (UCNE)\\Documentos\\HomeWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC_USER21\\AppData\\Roaming\\NuGet\\NuGet.Config"
