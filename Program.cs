@@ -8,10 +8,10 @@ namespace HomeWork
         {
             do
             {
-                int N_Estudiantes;
-                int N_years;
-                int aulas;
-                string Nombre_Carrera = "Ingenieria en sistemas";
+                int N_Estudiantes = 0;
+                int N_years = 0;
+                int aulas = 0;
+                string Nombre_Carrera = string.Empty;
 
                 Console.Write("\n- Ingrese el número de estudiantes: ");
                 N_Estudiantes = Convert.ToInt32(Console.ReadLine());
@@ -19,7 +19,10 @@ namespace HomeWork
                 Console.Write("\n- Ingrese el número de años: ");
                 N_years = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"- Nombre de la carrera: {Nombre_Carrera}");
+                Console.WriteLine("\n - Ingrese el nombre de la carrera: ");
+                Nombre_Carrera = Console.ReadLine();
+
+                Console.WriteLine($"- Nombre de la carrera: {Nombre_Carrera} ");
 
                 int[] pasaron = new int[N_years];
                 int[] quemados = new int[N_years];
@@ -60,7 +63,7 @@ namespace HomeWork
                         aulas = (int)Math.Ceiling((double)N_Estudiantes / 30);
 
                         Console.WriteLine("\n ------ Año {0} - Semestre {1} ------", año, semestre);
-                        Console.WriteLine(" \n\t- Matriculados: {0} - \n\t - Aprobados: {1} - \n\t - Repitentes: {2} - \n\t - Abandonaron: {3} - \n\t - Aulas disponibles: {4} -",
+                        Console.WriteLine(" \n\t- Matriculados: {0} - \n\t - Aprobados: {1} - \n\t - Repitentes: {2} - \n\t - Abandonaron: {3} - \n\t - Aulas disponibles: {4} - \n\n",
                             M_inscrita[indice], E_aprobados[indice], E_reprobados[indice], E_abandonaron[indice], aulas);
                     }
                 }
